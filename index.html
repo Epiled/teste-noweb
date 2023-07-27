@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elétrica J.Santos Desde 1970">
+
+  <title>Elétrica J.Santos Desde 1970</title>
+
+  <link rel="preload" href="./assets/styles/fonts.css" as="font" type="font/ttf" crossorigin>
+
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/styles/reset.css">
+  <link rel="stylesheet" href="./assets/styles/fonts.css">
+  <link rel="stylesheet" href="./assets/styles/variaveis.css">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="./assets/styles/menu/menu.css">
+  <link rel="stylesheet" href="./assets/styles/menu/navegacao.css">
+  <link rel="stylesheet" href="./assets/styles/menu/dropdown.css">
+  <link rel="stylesheet" href="./assets/styles/banner/banner.css">
+  <link rel="stylesheet" href="./assets/styles/produtos/produtos.css">
+  <link rel="stylesheet" href="./assets/styles/categorias/categorias.css">
+  <link rel="stylesheet" href="./assets/styles/sobre/sobre.css">
+  <link rel="stylesheet" href="./assets/styles/contato/contato.css">
+  <link rel="stylesheet" href="./assets/styles/rodape/rodape.css">
+</head>
+
+<body>
+  <header class="menu">
+    <div class="menu__wrap">
+      <img class="menu__logo" src="./assets/images/logo.svg" alt="">
+      <nav class="navegacao" data-navegacao>
+        <a data-estado="ativo" data-link class="navegacao__link" href="#home">Home</a>
+        <div class="navegacao__dropdown" dropdown>
+          <span class="navegacao__link" dropdown-btn>
+            Categorias
+          </span>
+          <ul class="dropdown" dropdown-lista>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/lampadas.png" alt="">
+                Lâmpadas
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/lustres.png" alt="">
+                Lustres
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/luminarias.png" alt="">
+                Luminárias
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/decoracoes.png" alt="">
+                Decorações
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/acessorios.png" alt="">
+                Acessórios
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/ferramentas.png" alt="">
+                Ferramentas
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/utensilios-domesticos.png" alt="">
+                Utensílios Domésticos
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="">
+                <img class="dropdown__image" src="./assets/images/cabos.png" alt="">
+                Cabos
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <a data-link class="navegacao__link" href="#sobre">Sobre</a>
+        <a data-link class="navegacao__link" href="#localizacao">Localizaçao</a>
+        <a class="navegacao__link navegacao__btn" href="#contato">
+          Contato
+        </a>
+      </nav>
+
+      <button class="navegacao__burguer" data-burguer type="button">
+        <span class="navegacao__linha" data-burguer-linha></span>
+        <span class="navegacao__linha" data-burguer-linha></span>
+        <span class="navegacao__linha" data-burguer-linha></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="wrap">
+        <div class="banner__conteiner">
+          <div class=" banner__conteudo">
+            <h1 class="banner__titulo">
+              Ilumine o seu
+              Dia a dia!
+            </h1>
+            <p class="banner__txt">
+              Aqui na Elétrica J. Santos queremos trazer mais luz para o seu dia a dia! Temos produtos para toda sua casa com a melhor qualidade e atendimento da região!
+            </p>
+            <div class="banner__btns">
+              <a class="banner__btn" href="">Veja nossos produtos</a>
+              <a class="banner__btn banner__btn--alt " href="">Nos conheça melhor</a>
+            </div>
+            <a class="banner__link" href="">
+              Role para ver mais
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section class="destaque">
+      <div class="wrap">
+        <div class="destaque__conteudo">
+          <h2 class="destaque__titulo">
+            Produtos em destaque
+          </h2>
+
+          <div class="produtos">
+            <div class="produto">
+              <span class="produto__categoria">Lustres</span>
+              <img class="produto__imagem" src="./assets/images/produto-lustre.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Lustre suspenso rústico
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 1.500,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 1.000,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 3x de R$ 333,33</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Lâmpada</span>
+              <img class="produto__imagem" src="./assets/images/produto-lampada.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Lâmpada
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 60,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 45,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 2x de R$ 22,50</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Acessórios</span>
+              <img class="produto__imagem" src="./assets/images/produto-extensao.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Lustre suspenso rústico
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 25,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 17,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 3x de R$ 333,33</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Ferramentas</span>
+              <img class="produto__imagem" src="./assets/images/produto-kit-ferramenta.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Lustre suspenso rústico
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 100,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 80,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 2x de R$ 40,00</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Utensílios domésticos</span>
+              <img class="produto__imagem" src="./assets/images/produto-garfos.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Garfos de mesa inox
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 15,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 8,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 3x de R$ 333,33</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Acessórios</span>
+              <img class="produto__imagem" src="./assets/images/produto-choveiro.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Lustre suspenso rústico
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 120,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 100,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 4x de R$ 25,00</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Utensílios domésticos</span>
+              <img class="produto__imagem" src="./assets/images/produto-ventilador.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Ventilador 2 em 1, mesa e parede
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 50,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 30,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 3x de R$ 333,33</span>
+              </div>
+            </div>
+
+            <div class="produto">
+              <span class="produto__categoria">Acessórios</span>
+              <img class="produto__imagem" src="./assets/images/produto-tomada.png" alt="">
+              <div class="produto__conteudo">
+                <h3 class="produto__titulo">
+                  Lustre suspenso rústico
+                </h3>
+                <div class="produto__precos">
+                  <span class="produto__preco">R$ 20,00</span>
+                  <span class="produto__preco produto__preco--dest">R$ 10,00</span>
+                </div>
+                <span class="produto__parcelas">ou em 3x de R$ 333,33</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categorias">
+      <div class="wrap">
+        <h2 class="categorias__titulo">Categorias</h2>
+
+        <div class="categorias__categorias">
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Lâmpadas
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/lampadas.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Lustres
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/lustres.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Luminárias
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/luminarias.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Decorações
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/decoracoes.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Acessórios
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/acessorios.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Ferramentas
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/ferramentas.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Utensílios Dmésticos
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/utensilios-domesticos.png" alt="" class="categoria__image">
+            </div>
+          </div>
+
+          <div class="categoria">
+            <h3 class="categoria__titulo">
+              Cabos
+            </h3>
+            <div class="categoria__box">
+              <img src="./assets/images/cabos.png" alt="" class="categoria__image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre">
+
+      <div class="wrap">
+        <h2 class="sobre__titulo">Sua melhor opção</h2>
+
+        <div class="sobre__conteudos">
+          <div class="sobre__local">
+            <img src="./assets/images/local.png" alt="" class="sobre__imagem">
+            <img src="./assets/images/like.svg" alt="" class="sobre__etq">
+          </div>
+          <div class="sobre__txts">
+            <p class="sobre__txt">
+              Desde 1970 somos especializados em materiais elétricos, sendo uma das principais distribuidoras do setor.
+            </p>
+            <p class="sobre__txt">
+              Oferecemos os melhores produtos, com o preço que cabe no seu bolso e atende todas as necessidades do seu dia a dia.
+            </p>
+            <p class="sobre__txt">
+              Aqui você irá encontrar lustres, luminárias, utilidades domésticas, ferramentas, acessórios, lâmpadas, fios e cabos, quadros de distribuição, caixas de entrada padrão Eletropaulo, materiais elétricos em geral, equipamentos de segurança e comunicação.
+            </p>
+            <a class="sobre__link" href="">
+              Saiba mais sobre nós
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="contato">
+      <div class="wrap">
+        <div class="contato__container">
+          <img class="contato__imagem" src="./assets/images/hospedagempro-faq-pessoa-bg-1.png" alt="">
+          <a class="contato__link" href="">Acione nosso televendas</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <div class="rodape__containers">
+        <div class="rodape__container">
+          <img src="./assets/images/logo-white.svg" alt="" class="rodape__imagem">
+          <span class="rodape__txt">
+            Venha na Elétrica J. Santos e garanta a melhor opção para sua casa!
+          </span>
+        </div>
+
+        <div class="rodape__container">
+          <span class="rodape__txt rodape__txt--alt">Nos siga nas redes</span>
+          <div class="rodape__redes">
+            <img class="rodape__social" src="./assets/images/logo-whatsapp.svg" alt="">
+            <img class="rodape__social" src="./assets/images/logo-instagram.svg" alt="">
+            <img class="rodape__social" src="./assets/images/logo-facebook.svg" alt="">
+          </div>
+        </div>
+
+        <div class="rodape__container">
+          <span class="rodape__txt rodape__txt--copy">
+            © Copyright 2021 - Elétrica J. Santos - Todos os Direitos Reservados
+          </span>
+          <div>
+            <span class="rodape__txt">
+              Desenvolvido por
+            </span>
+            <img class="rodape__noweb" src="./assets/images/icone-branco-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
+  <script src="./scripts/menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+.rodape {
+  background: var(--cor-azul-eletrico);
+  padding: 4rem 2rem;
+}
+
+.rodape__containers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rodape__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 36rem;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__container:first-of-type {
+  margin-bottom: 1rem;
+}
+
+.rodape__container:last-of-type {
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 3.5rem;
+  border-top: .1rem solid var(--cor-amarelo);
+  margin-top: 3rem;
+  max-width: 100%;
+}
+
+.rodape__redes {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.rodape__imagem {
+  width: 14.5rem;
+  margin-bottom: 2rem;
+}
+
+.rodape__txt {
+  color: var(--cor-branco);
+  font-size: 1.6rem;
+  line-height: 3.8rem;
+}
+
+.rodape__txt--alt {
+  text-transform: uppercase;
+}
+
+.rodape__txt--copy {
+  font-size: 1.5rem;
+}
+
+.rodape__social {
+  max-width: 2.2rem;
+  transition: transform .5s;
+  cursor: pointer;
+}
+
+.rodape__social:hover {
+  transform: scale(150%);
+}
+
+.rodape__noweb {
+  max-width: 2.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape__containers {
+    justify-content: space-between;
+  }
+
+  .rodape__container {
+    text-align: initial;
+    align-items: initial;
+  }
+
+  .rodape__container:first-of-type {
+    margin-bottom: 0rem;
+  }
+
+  .rodape__container:last-of-type {
+    flex-direction: row;
+    margin-top: 6rem;
+  }
+
+  .rodape__redes {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rodape {
+    background:
+      url(../../images/fundo-decoracao.svg) 103% 5rem no-repeat, var(--cor-azul-eletrico);
+    padding: 5rem;
+  }
+
+  .rodape__container:last-of-type {
+    margin-top: 9rem;
+  }
+
+  .rodape__redes {
+    margin-top: 3rem;
+  }
+}
+
+
+
+
+

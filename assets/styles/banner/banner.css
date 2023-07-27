@@ -1,0 +1,124 @@
+.banner {
+  background: linear-gradient(0deg, var(--cor-azul-escuro-93) 0%, var(--cor-azul-escuro-93) 100%), url(../../images/fundo.jpg), var(--cor-lighter-gray) 0 -2.7rem / 100% 159.8% no-repeat;
+  min-height: 50vh;
+  max-height: 80rem;
+  padding: 4rem 2rem;
+}
+
+.banner__conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 55.5rem;
+}
+
+.banner__titulo {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--cor-branco);
+  text-transform: uppercase;
+}
+
+.banner__txt {
+  color: var(--cor-branco);
+  font-size: 1.8rem;
+  line-height: 3.8rem;
+}
+
+.banner__btns {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+
+.banner__btn {
+  border-radius: .75rem;
+  border: .1rem solid var(--cor-amarelo);
+  background: var(--cor-amarelo);
+  color: var(--cor-azul-eletrico);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  max-width: 36rem;
+  filter: drop-shadow(0 0 6rem var(--cor-amarelo-30));
+  transition: background .5s, color .5s;
+}
+
+.banner__btn:hover {
+  color: var(--cor-branco);
+  background: var(--cor-amarelo-30);
+}
+
+.banner__btn--alt {
+  border: .1rem solid var(--cor-branco);
+  background: transparent;
+  color: var(--cor-branco);
+  filter: none;
+}
+
+.banner__btn--alt:hover {
+  background: var(--cor-amarelo);
+}
+
+.banner__link {
+  color: var(--cor-branco);
+  font-size: 1.8rem;
+  line-height: 3.8rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.banner__link::before {
+  content: '';
+  display: inline-block;
+  background: url(../../images/arrow-down.svg);
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .banner {
+    padding: 0;
+    height: 100vh;
+    background:
+      linear-gradient(0deg, var(--cor-azul-escuro-93) 0%
+      , var(--cor-azul-escuro-93) 100%)
+      , url(../../images/fundo.jpg) 0 0 / cover
+      , var(--cor-lighter-gray) 0 -2.7rem / 100% 159.8% no-repeat;
+  }
+
+  .banner__conteudo {
+    padding: 8rem 0;
+  }
+
+  .banner__conteiner {
+    height: 100%;
+    background:
+    url(../../images/estrelas.svg)
+    89.5% 87% / 17% no-repeat
+    , url(../../images/retangulo-branco.svg)
+    95% 92% / 27% no-repeat
+    , url(../../images/etiqueta.svg)
+    59.5% 59% / 4.5% no-repeat
+    , url(../../images/banner-lampada.png)
+    62% 80% / 25% no-repeat
+    , url(../../images/foto-mulher-layout-1.png) 
+    31rem 100% / contain no-repeat
+    , url(../../images/fundo-decoracao.svg)
+    100% 38% / 17% no-repeat
+    , url(../../images/fundo-decoracao.svg)
+    71% 100% / 17% no-repeat
+    ;
+  }
+
+  .banner__titulo {
+    font-size: 7rem;
+  }
+}
