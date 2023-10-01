@@ -9,23 +9,10 @@
   <title>Elétrica J.Santos Desde 1970</title>
 
   <link rel="shortcut icon" href="./assets/favicon/favicon.svg" type="image/x-icon">
+
+  <link rel="preload" href="./assets/images/fundo-1920.webp" as="image">
   
-  <link rel="preload" href="./assets/styles/fonts.css" as="font" type="font/ttf" crossorigin>
-  <!-- build -->
-  <link rel="stylesheet" href="./assets/styles/reset.css">
-  <link rel="stylesheet" href="./assets/styles/fonts.css">
-  <link rel="stylesheet" href="./assets/styles/variaveis.css">
-  <link rel="stylesheet" href="./assets/styles/main.css">
-  <link rel="stylesheet" href="./assets/styles/menu/menu.css">
-  <link rel="stylesheet" href="./assets/styles/menu/navegacao.css">
-  <link rel="stylesheet" href="./assets/styles/menu/dropdown.css">
-  <link rel="stylesheet" href="./assets/styles/banner/banner.css">
-  <link rel="stylesheet" href="./assets/styles/produtos/produtos.css">
-  <link rel="stylesheet" href="./assets/styles/categorias/categorias.css">
-  <link rel="stylesheet" href="./assets/styles/sobre/sobre.css">
-  <link rel="stylesheet" href="./assets/styles/contato/contato.css">
-  <link rel="stylesheet" href="./assets/styles/rodape/rodape.css">
-  <!-- endBuild -->
+  <link rel="preload stylesheet" href="./assets/styles/budles.css" as="style">
 </head>
 
 <body>
@@ -41,49 +28,49 @@
           <ul class="dropdown" dropdown-lista>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/lampadas.png" width="600" height="600" alt="">
+                <img class="dropdown__image" src="./assets/images/lampadas.webp" width="400" height="400" alt="">
                 Lâmpadas
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/lustres.png" width="600" height="600" alt="">
+                <img class="dropdown__image" src="./assets/images/lustres.webp" width="400" height="400" alt="">
                 Lustres
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/luminarias.png" width="1320" height="1320" alt="">
+                <img class="dropdown__image" src="./assets/images/luminarias.webp" width="400" height="400" alt="">
                 Luminárias
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/decoracoes.png" width="1000" height="1000" alt="">
+                <img class="dropdown__image" src="./assets/images/decoracoes.webp" width="400" height="400" alt="">
                 Decorações
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/acessorios.png" width="1000" height="1000" alt="">
+                <img class="dropdown__image" src="./assets/images/acessorios.webp" width="400" height="400" alt="">
                 Acessórios
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/ferramentas.png" width="579" height="1054" alt="">
+                <img class="dropdown__image" src="./assets/images/ferramentas.webp" width="500" height="910" alt="">
                 Ferramentas
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/utensilios-domesticos.png" width="1200" height="750" alt="">
+                <img class="dropdown__image" src="./assets/images/utensilios-domesticos.webp" width="400" height="250" alt="">
                 Utensílios Domésticos
               </a>
             </li>
             <li class="dropdown__item">
               <a class="dropdown__link" href="#">
-                <img class="dropdown__image" src="./assets/images/cabos.png" width="1600" height="1107" alt="">
+                <img class="dropdown__image" src="./assets/images/cabos.webp" width="400" height="277" alt="">
                 Cabos
               </a>
             </li>
@@ -138,7 +125,7 @@
           <div class="produtos">
             <div class="produto">
               <span class="produto__categoria">Lustres</span>
-              <img class="produto__imagem" src="./assets/images/produto-lustre.png" width="351" height="526" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-lustre.webp" width="351" height="526" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Lustre suspenso rústico
@@ -153,7 +140,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Lâmpada</span>
-              <img class="produto__imagem" src="./assets/images/produto-lampada.png" width="351" height="526" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-lampada.webp" width="351" height="526" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Lâmpada
@@ -168,7 +155,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Acessórios</span>
-              <img class="produto__imagem" src="./assets/images/produto-extensao.png" width="2560" height="2560" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-extensao.webp" width="500" height="500" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Lustre suspenso rústico
@@ -183,7 +170,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Ferramentas</span>
-              <img class="produto__imagem" src="./assets/images/produto-kit-ferramenta.png" width="1006" height="620" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-kit-ferramenta.webp" width="500" height="308" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Lustre suspenso rústico
@@ -198,7 +185,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Utensílios domésticos</span>
-              <img class="produto__imagem" src="./assets/images/produto-garfos.png" width="900" height="900" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-garfos.webp" width="500" height="500" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Garfos de mesa inox
@@ -213,7 +200,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Acessórios</span>
-              <img class="produto__imagem" src="./assets/images/produto-choveiro.png" width="1000" height="1000" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-choveiro.webp" width="500" height="500" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Lustre suspenso rústico
@@ -228,7 +215,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Utensílios domésticos</span>
-              <img class="produto__imagem" src="./assets/images/produto-ventilador.png" width="430" height="313" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-ventilador.webp" width="430" height="313" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Ventilador 2 em 1, mesa e parede
@@ -243,7 +230,7 @@
 
             <div class="produto">
               <span class="produto__categoria">Acessórios</span>
-              <img class="produto__imagem" src="./assets/images/produto-tomada.png" width="1000" height="1000" alt="">
+              <img class="produto__imagem" loading="lazy" src="./assets/images/produto-tomada.webp" width="500" height="500" alt="">
               <div class="produto__conteudo">
                 <h3 class="produto__titulo">
                   Lustre suspenso rústico
@@ -271,7 +258,7 @@
               Lâmpadas
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/lampadas.png" width="600" height="600" alt="" class="categoria__image">
+              <img src="./assets/images/lampadas.webp" loading="lazy" width="400" height="400" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -280,7 +267,7 @@
               Lustres
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/lustres.png" width="600" height="600" alt="" class="categoria__image">
+              <img src="./assets/images/lustres.webp" loading="lazy" width="400" height="400" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -289,7 +276,7 @@
               Luminárias
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/luminarias.png" width="1320" height="1320" alt="" class="categoria__image">
+              <img src="./assets/images/luminarias.webp" loading="lazy" width="400" height="400" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -298,7 +285,7 @@
               Decorações
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/decoracoes.png" width="1000" height="1000" alt="" class="categoria__image">
+              <img src="./assets/images/decoracoes.webp" loading="lazy" width="400" height="400" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -307,7 +294,7 @@
               Acessórios
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/acessorios.png" width="1000" height="1000" alt="" class="categoria__image">
+              <img src="./assets/images/acessorios.webp" loading="lazy" width="400" height="400" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -316,7 +303,7 @@
               Ferramentas
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/ferramentas.png" width="579" height="1054" alt="" class="categoria__image">
+              <img src="./assets/images/ferramentas.webp" loading="lazy" width="500" height="910" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -325,7 +312,7 @@
               Utensílios Dmésticos
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/utensilios-domesticos.png" width="1200" height="750" alt="" class="categoria__image">
+              <img src="./assets/images/utensilios-domesticos.webp" loading="lazy" width="400" height="250" alt="" class="categoria__image">
             </div>
           </div>
 
@@ -334,7 +321,7 @@
               Cabos
             </h3>
             <div class="categoria__box">
-              <img src="./assets/images/cabos.png" width="1600" height="1107" alt="" class="categoria__image">
+              <img src="./assets/images/cabos.webp" loading="lazy" width="400" height="277" alt="" class="categoria__image">
             </div>
           </div>
         </div>
@@ -348,8 +335,8 @@
 
         <div class="sobre__conteudos">
           <div class="sobre__local">
-            <img src="./assets/images/local.png" width="555" height="477" alt="" class="sobre__imagem">
-            <img src="./assets/svg/like.svg" width="98" height="98" alt="" class="sobre__etq">
+            <img src="./assets/images/local.webp" loading="lazy" width="555" height="477" alt="" class="sobre__imagem">
+            <img src="./assets/svg/like.svg" loading="lazy" width="98" height="98" alt="" class="sobre__etq">
           </div>
           <div class="sobre__txts">
             <p class="sobre__txt">
@@ -372,7 +359,7 @@
     <div class="contato">
       <div class="wrap">
         <div class="contato__container">
-          <img class="contato__imagem" src="./assets/images/hospedagempro-faq-pessoa-bg-1.png" width="505" height="891" alt="">
+          <img class="contato__imagem" loading="lazy" src="./assets/images/hospedagempro-faq-pessoa-bg-1.webp" width="505" height="891" alt="">
           <a class="contato__link" href="#">Acione nosso televendas</a>
         </div>
       </div>
@@ -392,9 +379,9 @@
         <div class="rodape__container">
           <span class="rodape__txt rodape__txt--alt">Nos siga nas redes</span>
           <div class="rodape__redes">
-            <img class="rodape__social" width="22" height="22" src="./assets/svg/logo-whatsapp.svg" alt="">
-            <img class="rodape__social" width="22" height="22" src="./assets/svg/logo-instagram.svg" alt="">
-            <img class="rodape__social" width="22" height="22" src="./assets/svg/logo-facebook.svg" alt="">
+            <img class="rodape__social" loading="lazy" width="22" height="22" src="./assets/svg/logo-whatsapp.svg" alt="">
+            <img class="rodape__social" loading="lazy" width="22" height="22" src="./assets/svg/logo-instagram.svg" alt="">
+            <img class="rodape__social" loading="lazy" width="22" height="22" src="./assets/svg/logo-facebook.svg" alt="">
           </div>
         </div>
 
@@ -406,15 +393,15 @@
             <span class="rodape__txt">
               Desenvolvido por
             </span>
-            <img class="rodape__noweb" width="706" height="435" src="./assets/images/icone-branco-1.png" alt="">
+            <img class="rodape__noweb" loading="lazy" width="706" height="435" src="./assets/images/icone-branco-1.webp" alt="">
           </div>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="./scripts/main.js"></script>
-  <script src="./scripts/menu.js"></script>
+  <script async src="./scripts/main.js"></script>
+  <script async src="./scripts/menu.js"></script>
 </body>
 
 </html>
