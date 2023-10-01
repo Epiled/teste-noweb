@@ -13,7 +13,7 @@
   left: calc(50% - 15rem);
   border-radius: 0 1.5rem 0 0;
   background: 
-  url(../../images/fundo-decoracao.svg) calc(50% - 10rem) 0rem / 10rem no-repeat
+  url(../../svg/fundo-decoracao.svg) calc(50% - 10rem) 0rem / 10rem no-repeat
   , var(--cor-azul-eletrico);
   width: 107.3rem;
   height: 45.6rem;
@@ -27,7 +27,7 @@
   top: 5rem;
   left: calc(50% + 44rem);
   border-radius: 0 1.5rem 0 0;
-  background: url(../../images/fundo-decoracao.svg) no-repeat;
+  background: url(../../svg/fundo-decoracao.svg) no-repeat;
   width: 25rem;
   height: 25rem;
   transform: translate(-50%);

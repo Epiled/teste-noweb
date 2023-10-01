@@ -19,7 +19,7 @@
   .menu {
     padding: 0;
     background: 
-    url(../../images/fundo-decoracao.svg) -1% 40% / 15rem no-repeat
+    url(../../svg/fundo-decoracao.svg) -1% 40% / 15rem no-repeat
     , linear-gradient(
       90deg
       , var(--cor-branco) 0%

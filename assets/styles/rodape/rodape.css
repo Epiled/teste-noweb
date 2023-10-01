@@ -99,7 +99,7 @@
 @media screen and (min-width: 1280px) {
   .rodape {
     background:
-      url(../../images/fundo-decoracao.svg) 103% 5rem no-repeat, var(--cor-azul-eletrico);
+      url(../../svg/fundo-decoracao.svg) 103% 5rem no-repeat, var(--cor-azul-eletrico);
     padding: 5rem;
   }
 

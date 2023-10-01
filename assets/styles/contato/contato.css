@@ -10,7 +10,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background: url(../../images/fundo-decoracao.svg) calc(50% - 14rem) 75% / 22rem no-repeat;
+  background: url(../../svg/fundo-decoracao.svg) calc(50% - 14rem) 75% / 22rem no-repeat;
 }
 
 .contato__imagem {

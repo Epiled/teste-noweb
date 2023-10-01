@@ -80,7 +80,7 @@
 }
 
 .navegacao__dropdown[dropdown]::before {
-  content: url(../../images/arrow-down-black.svg);
+  content: url(../../svg/arrow-down-black.svg);
   position: absolute;
   left: calc(50% + 0rem);
   top: 2.15rem;
@@ -127,7 +127,7 @@
     height: 1rem;
     transform: translateX(-50%);
     width: 100%;
-    background: url(../../images/triangulo.svg);
+    background: url(../../svg/triangulo.svg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
