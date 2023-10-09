@@ -54,6 +54,7 @@
     overflow: hidden;
     filter: drop-shadow(0 2rem 3rem var(--cor-preto));
     transform: translateX(-50%);
+    opacity: 0;
     transition: height .5s;
   }
 
