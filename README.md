@@ -54,7 +54,7 @@ https://github.com/Epiled/teste_noweb/assets/55258483/0356188b-3053-4c70-b09e-01
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
-![mobile_first](https://user-images.githubusercontent.com/55258483/179240575-f83027c0-5781-4333-a16c-2ba3f89b9a57.png)
+![lighthouse-01](https://github.com/Epiled/teste-noweb/assets/55258483/23eded5b-bdf0-4a81-af82-44b6d31d54a7)
 
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
