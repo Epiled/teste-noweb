@@ -1,27 +1,25 @@
-![alurabooks](https://user-images.githubusercontent.com/55258483/178596490-768a0e86-13ed-4dd2-9979-c3973c863ac4.png)
+![eletrica-j-santos](https://github.com/Epiled/teste_noweb/assets/55258483/05441678-9183-4f9c-bb97-24e334328b6a)
 
-<h1 align="center" id="sobre">🔵 📚 Alura Books 📚 🔵</h1>
+
+<h1 align="center" id="sobre">🟡 ⚡ Teste Noweb - Elétrica J.Santos ⚡ 🟡</h1>
 
 <p>
-  Projeto final do curso <a href="https://cursos.alura.com.br/course/html-css-responsividade-mobile-first">HTML e CSS: responsividade com mobile-first</a>.
+  Projeto de teste para trabalhar em uma âgencia de marketing, se eu fiz, no mínimo vira peça de portifólio</a>.
 </p>
 <p>
-  Utilizei o conhecimento de diversar áreas para refatorar certas parte do código e adicionar algumas melhorias 
-  com o objetivo de extrair o máximo de perfomance da página.
+  Não a muito o quê dizer, recebi um wireframe de alta fidelidade no figma, apenas so desktop, não foi especificado a preferencia por linguagens ou tecnologias
 </p>
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/alura-books?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/alura-books?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/alura-books?style=for-the-badge)
+![Badge](https://img.shields.io/github/last-commit/Epiled/teste-noweb?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/teste-noweb?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/teste-noweb?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/Epiled/alura-books?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/alura-books?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/Epiled/teste-noweb?style=for-the-badge)
+![Bagde](https://img.shields.io/github/license/Epiled/teste-noweb?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Badge](https://img.shields.io/badge/-Swiperjs-0080FF?style=for-the-badge&logo=swiper&logoColor=white)
-![Badge](https://img.shields.io/badge/-PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
 <h2> 📑 Tabela de Conteúdos </h2>
 
@@ -42,16 +40,17 @@
   Os arquivos de wireframes podem ser visto ou editador no seguinte link.
 <p>
 <p>
-  Figma: <a href="https://www.figma.com/file/JTXUlFgtMNBCn2JEkXzMFW/AluraBooks-Ref">HTML e CSS Responsividade com Mobile First</a>
+  Figma: <a href="https://www.figma.com/file/VcbMzf41qKCyXJ0SXSBNkk/Teste-de-Dev-Web-%2F-El%C3%A9trica-J.-Santos-(Teste)?type=design&node-id=58%3A2&mode=design&t=qlclD4rtPneUqJCE-1">Teste Noweb - Elétrica J.Santos</a>
 </p>
 
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
 <p>No link abaixo você pode ver a página no ar e rodar seus próprios teste de perfomance ou desempenho</p>
-<p>Alura Books: <a href="https://epiled.github.io/alura-books/">epiled.github.io/alura-books/</a></p>
+<p>Teste Noweb - Elétrica J.Santos: <a href="https://epiled.github.io/teste-noweb/">epiled.github.io/teste-noweb/</a></p>
 
-![html_e_css_mobile_first_desktop](https://user-images.githubusercontent.com/55258483/178686221-71cee3a8-6b47-4006-afbc-71ab3e001565.gif)
-![html_e_css_mobile_first_mobile](https://user-images.githubusercontent.com/55258483/178686235-efd3fcbf-81cb-432a-ba79-e38ba89bdd14.gif)
+https://github.com/Epiled/teste_noweb/assets/55258483/146e33ff-26f8-4fa8-bec6-9d6d9bdaf38e
+
+https://github.com/Epiled/teste_noweb/assets/55258483/0356188b-3053-4c70-b09e-011d51b9d2bd
 
 <h2 id="performance"> 📈 Performance Lighthouse </h2>
 
@@ -60,8 +59,8 @@
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/alura-books.git
-2. cd alura-books
+1. git clone https://github.com/Epiled/teste-noweb.git
+2. cd teste-noweb
 ```
 
 <h2 id="como-usar"> 👩‍🏫 Como usar </h2>
@@ -77,8 +76,6 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">Javascript</a></li>
-  <li><a href="https://swiperjs.com/" target="_blank">SwiperJS</a></li>
-  <li><a href="https://web.dev/progressive-web-apps/" target="_blank">PWA</a></li>
 </ul>
 
 <h2 id="autor"> 👨‍💻 Autor </h2>
