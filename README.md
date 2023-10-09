@@ -4,10 +4,10 @@
 <h1 align="center" id="sobre">🟡 ⚡ Teste Noweb - Elétrica J.Santos ⚡ 🟡</h1>
 
 <p>
-  Projeto de teste para trabalhar em uma âgencia de marketing, se eu fiz, no mínimo vira peça de portifólio</a>.
+  Projeto de teste para trabalhar em uma agência de marketing, se eu fiz, no mínimo vira peça de portifólio.
 </p>
 <p>
-  Não a muito o quê dizer, recebi um wireframe de alta fidelidade no figma, apenas so desktop, não foi especificado a preferencia por linguagens ou tecnologias
+  Não a muito o quê dizer, recebi um wireframe de alta fidelidade no figma, apenas desktop, não foi especificado a preferência por linguagens ou tecnologias
 </p>
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/teste-noweb?style=for-the-badge)
