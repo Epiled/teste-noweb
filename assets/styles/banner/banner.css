@@ -3,6 +3,7 @@
   min-height: 50vh;
   max-height: 80rem;
   padding: 4rem 2rem;
+  margin-top: 6.4rem;
 }
 
 .banner__conteudo {
@@ -92,6 +93,7 @@
       , var(--cor-azul-escuro-93) 100%)
       , url(../../images/fundo.jpg) 0 0 / cover
       , var(--cor-lighter-gray) 0 -2.7rem / 100% 159.8% no-repeat;
+    margin-top: 0;
   }
 
   .banner__conteudo {

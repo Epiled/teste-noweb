@@ -1,6 +1,11 @@
 .menu {
-  position: relative;
+  position: fixed;
   padding: 1.4rem;
+  background: var(--cor-branco);
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  left: 0;
 }
 
 .menu__wrap {
@@ -26,6 +31,8 @@
       , var(--cor-branco) 50%
       , var(--cor-amarelo) 50%
       , var(--cor-amarelo) 100%);
+      position: relative;
+      width: initial;
   }
 
   .menu__logo {
